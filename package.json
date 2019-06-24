@@ -3,6 +3,7 @@
   "version": "1.11.0",
   "description": "A class to hold chunk data for prismarine",
   "main": "index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "test": "mocha",
     "benchmark": "bench-csv ./benchmarks/chunk-1.9.js -o ./benchmarks/results/chunk-1.9.csv",
@@ -37,7 +38,7 @@
     "standard": "^12.0.1"
   },
   "dependencies": {
-    "prismarine-block": "^1.1.1",
+    "prismarine-block": "file:///home/ron/git/prismarine-block",
     "protodef": "^1.3.1",
     "uint4": "^0.1.2",
     "vec3": "^0.1.3"
