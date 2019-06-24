@@ -2299,15 +2299,9 @@ prismarine-biome@^1.0.0:
   resolved "https://registry.yarnpkg.com/prismarine-biome/-/prismarine-biome-1.0.1.tgz#02e4e0951c1f11508b5cacbb014ebb76ddddb04d"
   integrity sha1-AuTglRwfEVCLXKy7AU67dt3dsE0=
 
-prismarine-block@^1.1.1:
+prismarine-block@RONTheCookie/prismarine-block:
   version "1.1.1"
-  resolved "https://registry.yarnpkg.com/prismarine-block/-/prismarine-block-1.1.1.tgz#6d042b577647f1fc28240f1167806cc2af35224f"
-  integrity sha512-dXqOyEG4Pu7KK5yCZOe5vkEY4uBL1q6qeKrIVxK10MQx6N1V6cl0pNj2OBQZB8V1FFnoFPVJMPzJS4gI2DPlNQ==
-  dependencies:
-    prismarine-biome "^1.0.0"
-
-"prismarine-block@file:///home/ron/git/prismarine-block":
-  version "1.1.1"
+  resolved "https://codeload.github.com/RONTheCookie/prismarine-block/tar.gz/4d721a2906442f86615982c0df274629d8730ce2"
   dependencies:
     prismarine-biome "^1.0.0"
 
