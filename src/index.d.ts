@@ -4,12 +4,13 @@
  */
 import { Block } from "prismarine-block";
 import { Vec3 } from "vec3";
-export default function prismarine_chunk(mcVersion: string): Chunk;
+// export default function prismarine_chunk(mcVersion: string): Chunk;
 interface iniFunc {
     (x: number, y: number, z: number);
 }
-export class Chunk {
+export default class Chunk {
     constructor();
+    static pickVersion(mcVersion: string): void
     initalize(iniFunc: iniFunc): Chunk;
     getBlock(pos: Vec3): Block;
     setBlock(pos: Vec3, block: Block): void;
