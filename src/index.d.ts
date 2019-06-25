@@ -6,7 +6,7 @@ import { Block } from "prismarine-block";
 import { Vec3 } from "vec3";
 // export default function prismarine_chunk(mcVersion: string): Chunk;
 interface iniFunc {
-    (x: number, y: number, z: number);
+    (x: number, y: number, z: number): Block;
 }
 export default class Chunk {
     constructor();
